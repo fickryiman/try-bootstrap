@@ -160,13 +160,18 @@ Example:
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Author 1**
 
-- GitHub: [@fickryiman](https://github.com/fickryiman), - LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman)
+- GitHub: [@fickryiman](https://github.com/fickryiman)
+- LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman)
 
-- GitHub: [@joeveloper](https://github.com/joeveloper)
+👤 **Author 2**
 
 - GitHub: [@Phone Khaing Hein](https://github.com/Rimuru-Tempest-26)
+
+👤 **Author 3**
+
+- GitHub: [@joeveloper](https://github.com/joeveloper)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
