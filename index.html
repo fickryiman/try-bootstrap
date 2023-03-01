@@ -38,56 +38,17 @@
       background: #FFFFFF;
     }
 
+    .btn-collab {
+      background: #1a2236;
+      color: #fff;
+    }
+
     .img-full {
       width: 100%;
       height: fit-content;
     }
   </style>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <style>
-    .navbar {
-      display: flex;
-      background: #fff;
-      text-align: center;
-      margin: auto;
-
-    }
-
-    .navbar-nav {
-      display: flex;
-      gap: 50px;
-    }
-
-    .nav-link {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      color: #000;
-    }
-
-    .nav-item:nth-child(1) {
-      border-bottom: 2px solid #000;
-      /* border-bottom-style: ; */
-    }
-
-    .col-sm {
-      position: relative;
-    }
-
-    .main-img {
-      bottom: 0;
-      right: 0;
-      position: absolute;
-    }
-
-    body {
-      width: 100vw;
-      overflow-x: hidden;
-    }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>Fickry Porfolio</title>
 </head>
 
@@ -98,82 +59,57 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-  <nav class="d-none">
-    <ul>
-      <li>Hello</li>
-      <li>Portfolio</li>
-      <li>About</li>
-      <li>Contact</li>
+
+  <!-- YINKA START HERE -->
+  <nav class="container-fluid">
+    <ul class="navbar-nav d-flex flex-row justify-content-center list-unstyled">
+      <li class="p-3 m-3">Hello</li>
+      <li class="p-3 m-3">Portfolio</li>
+      <li class="p-3 m-3">About</li>
+      <li class="p-3 m-3">Contact</li>
     </ul>
-    <ul>
-      <li>
-        <a href="#"><img src="./images/image_geometry_1.png" alt="image_geometry_1" srcset=""></a>
+    <ul class="d-none">
+      <li class="">
+        <a href="#"><img src="./images/image_geometry_1.png" alt="image_geometry_1" class="img-header" srcset=""></a>
       </li>
-      <li></li>
-      <li>
+      <li class=""></li>
+      <li class="">
         <nav>
-          <a href="#"><img src="./images/ic_menu.png" alt="ic_menu" srcset=""></a>
+          <a href="#"><img src="./images/ic_menu.png" alt="ic_menu" class="ic-menu" srcset=""></a>
         </nav>
       </li>
     </ul>
   </nav>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <div class="navbar" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Hello</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+  <hr class="m-0">
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-4 align-self-center" style="margin-left:5%; margin-right: -5%;">
+        <h1 class="playfair pb-3" style="font-size: 50px;">Fickry <br> Bil Iman</h1>
+        <h6>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my
+          work.</h6>
+        <h6 class="pb-3">If you like what you see and have a project you need coded, don’t hesitate to contact me.</h6>
+        <button type="button" class="btn-collab px-3 py-2">Start collaboration</button>
       </div>
-    </div>
-  </nav>
-
-
-  <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm" style="padding-top: 20%;">
-          <h1>Fickry <br>Bil Iman</h1>
-          <h3>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my
-            work.</h3>
-          <h3>If you like what you see and have a project you need coded, don’t hesitate to contact me.</h3>
-          <button type="button" class="btn btn-secondary">Start collaboration</button>
-          <img class="main-img" src="./images/image_dots.png" alt="dot-image-1" srcset="">
-        </div>
-
-        <div class="col-sm">
-          <img src="./images/image-geometry_1.png" alt="dot-image-2" srcset="">
-        </div>
-      </div>
+      <img class="col-2 img-full p-0 align-self-end" src="./images/image_dots.png" alt="dot-image-1" srcset="">
+      <img class="col-6 img-full p-0" src="./images/image-geometry_1.png" alt="dot-image-2" srcset="">
     </div>
   </main>
 
+  <!-- FICKRY START HERE -->
   <section class="container-fluid p-0" style="margin-top: 15%; margin-bottom: 15%;">
     <div class="row">
-      <img src="./images/image_geometry_2.png" alt="image_geometry_2" srcset="" class="d-none">
-      <h1 class="col-2 playfair" style="
+      <img class="d-none" src="./images/image_geometry_2.png" alt="image_geometry_2" srcset="">
+      <h1 class="col-3 playfair align-self-center" style="
           transform: rotate(-90deg); 
-          margin-top: 10%;
-          margin-right: -10%;
-          margin-bottom: 10%;
-          margin-left: 10%; 
           font-size: 70px;
+          margin-top: -5%;
           ">Projects
       </h1>
-      <img src="./images/image_dots.png" class="col-2" style="height: fit-content;" alt="dot-image-2" srcset="">
-      <div class="col">
-        <img src="./images/Rectangle 21.png" class="" style="width: 100%; height: fit-content;" alt="project-1"
+      <img src="./images/image_dots.png" class="col-2 p-0" style="height: fit-content;" alt="dot-image-2" srcset="">
+      <div class="col-7">
+        <img src="./images/Rectangle 21.png" class="p-0" style="width: 100%; height: fit-content;" alt="project-1"
           srcset="">
         <div class="bg-blue" style="margin-top: -35%;">
           <h2 class="fs-1 p-4">Project name goes here</h2>
@@ -185,73 +121,58 @@
           <button type="button" class="btn-project p-2 mx-4 my-5 mt-2">See this project &nbsp;&nbsp;&nbsp; <span
               style='font-size:20px;'>&#8594;</span></span></button>
         </div>
+      </div>
+    </div>
 
-
-        <section>
-          <img src="./images/image_geometry_2.png" alt="image_geometry_2" srcset="">
-          <h1>Projects</h1>
-          <img src="./images/image_dots.png" alt="dot-image-2" srcset="">
-          <div>
-            <img src="./images/Rectangle 21.png" alt="project-1" srcset="">
-            <div>
-              <h3>Project name goes here</h3>
-              <ul>
-                <li>HTML/CSS</li>
-                <li>Ruby On Rails</li>
-                <li>Javascript</li>
-              </ul>
-              <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
-                  style='font-size:20px;'>&#8594;</span></span></button>
-            </div>
-          </div>
-          <div class="row">
-            <img src="./images/Rectangle 21_2.png" class="col-3 img-full p-0" style="align-self: flex-end;"
-              alt="project-1">
-            <img src="./images/image-geometry_2.png" class="col-5 p-0" alt="project-1_1">
-            <img src="./images/Rectangle 21_6.png" class="col-4 img-full p-0" alt="project-1">
-            <div class="d-none">
-              <h3>Project name goes here</h3>
-              <ul>
-                <li>HTML/CSS</li>
-                <li>Ruby On Rails</li>
-                <li>Javascript</li>
-              </ul>
-              <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
-                  style='font-size:20px;'>&#8594;</span></span></button>
-            </div>
-          </div>
-          <div class="row">
-            <img src="./images/Rectangle 21_3.png" class="col-6 img-full p-0" alt="project-1">
-            <img src="./images/image-geometry_3.png" class="col-6 img-full p-0" style="align-self: flex-end;"
-              alt="project-1">
-            <div class="d-none">
-              <h3>Project name goes here</h3>
-              <ul>
-                <li>HTML/CSS</li>
-                <li>Ruby On Rails</li>
-                <li>Javascript</li>
-              </ul>
-              <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
-                  style='font-size:20px;'>&#8594;</span></span></button>
-            </div>
-          </div>
-          <divm class="row">
-            <div class="col-7 p-0">
-              <img src="./images/image-geometry_5.png" class="col-5 p-0" alt="project-1">
-              <img src="./images/image-geometry_4.png" class="col-2 p-0" style="margin-left: 40%; margin-top: -5%;"
-                alt="project-1">
-            </div>
-            <img src="./images/Rectangle 21_4.png" class="col-5 p-0" alt="project-1">
-            <div class="d-none">
-              <h3>Project name goes here</h3>
-              <ul>
-                <li>HTML/CSS</li>
-                <li>Ruby On Rails</li>
-                <li>Javascript</li>
-              </ul>
-              <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
-                  style='font-size:20px;'>&#8594;</span></span></button>
-            </div>
+  <section class="container-fluid p-0" style="margin-bottom: 15%;">
+    <div class="row">
+      <img src="./images/Rectangle 21_2.png" class="col-3 img-full p-0" style="align-self: flex-end;"
+        alt="project-1">
+      <img src="./images/image-geometry_2.png" class="col-5 p-0" alt="project-1_1">
+      <img src="./images/Rectangle 21_6.png" class="col-4 img-full p-0" alt="project-1">
+      <div class="d-none">
+        <h3>Project name goes here</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Ruby On Rails</li>
+          <li>Javascript</li>
+        </ul>
+        <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
+            style='font-size:20px;'>&#8594;</span></span></button>
+      </div>
+    </div>
+    <div class="row">
+      <img src="./images/Rectangle 21_3.png" class="col-6 img-full p-0" alt="project-1">
+      <img src="./images/image-geometry_3.png" class="col-6 img-full p-0" style="align-self: flex-end;"
+        alt="project-1">
+      <div class="d-none">
+        <h3>Project name goes here</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Ruby On Rails</li>
+          <li>Javascript</li>
+        </ul>
+        <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
+            style='font-size:20px;'>&#8594;</span></span></button>
+      </div>
+    </div>
+    <divm class="row">
+      <div class="col-7 p-0">
+        <img src="./images/image-geometry_5.png" class="col-5 p-0" alt="project-1">
+        <img src="./images/image-geometry_4.png" class="col-2 p-0" style="margin-left: 40%; margin-top: -5%;"
+          alt="project-1">
+      </div>
+      <img src="./images/Rectangle 21_4.png" class="col-5 p-0" alt="project-1">
+      <div class="d-none">
+        <h3>Project name goes here</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Ruby On Rails</li>
+          <li>Javascript</li>
+        </ul>
+        <button type="button">See this project &nbsp;&nbsp;&nbsp; <span
+            style='font-size:20px;'>&#8594;</span></span></button>
+      </div>
       </div>
       <!-- div 8 hide in on desktop -->
       <div class="d-none">
@@ -268,17 +189,19 @@
         </div>
       </div>
       <!-- div 9 hide it on mobile -->
-      <div class="d-flex flex-column-reverse" style="position: absolute; margin-top: -40vh; margin-left: 67.5%;">
-        <img src="./images/Rectangle 21_5.png" class="col-4" alt="project-1">
-        <div class="col-4 bg-blue">
-          <h3 class="p-2">Project name goes...</h3>
-          <ul class="d-flex list-unstyled p-1" style="font-size: 12px;">
-            <li class="p-1 mx-1 bg-light-blue">HTML/CSS</li>
-            <li class="p-1 mx-1 bg-light-blue">Ruby On Rails</li>
-            <li class="p-1 mx-1 bg-light-blue">Javascript</li>
-          </ul>
-          <button type="button" class="btn-project m-2">See this project &nbsp;&nbsp;&nbsp; <span
-              style='font-size:20px;'>&#8594;</span></span></button>
+      <div class="container-fluid p-0">
+        <div class="d-flex flex-column-reverse align-items-end" style="margin-top: -79%">
+          <img src="./images/Rectangle 21_5.png" class="col-4" alt="project-1">
+          <div class="col-4 bg-blue">
+            <h3 class="p-2">Project name goes...</h3>
+            <ul class="d-flex list-unstyled p-1" style="font-size: 12px;">
+              <li class="p-1 mx-1 bg-light-blue">HTML/CSS</li>
+              <li class="p-1 mx-1 bg-light-blue">Ruby On Rails</li>
+              <li class="p-1 mx-1 bg-light-blue">Javascript</li>
+            </ul>
+            <button type="button" class="btn-project m-2">See this project &nbsp;&nbsp;&nbsp; <span
+                style='font-size:20px;'>&#8594;</span></span></button>
+          </div>
         </div>
       </div>
       <div class="d-none">
@@ -295,25 +218,26 @@
         </div>
       </div>
   </section>
-  <div class="d-flex justify-content-center align-items-center w-100">
-    <img src="./images/Group116.png" alt="about-images-desktop" class="mb-5 d-md-block d-sm-none">
-    <img src="./images/Group 118.svg" alt="about-images-desktop" class="mb-5 d-sm-block d-md-none w-75">
+
+  <!-- HEIN START HERE -->
+  <div class="d-flex justify-content-center align-items-center w-100" style="margin-bottom: 15%;">
+    <img src="./images/Group116.png" class="img-full" style="padding-right: 15%; padding-left: 10%;" alt="about-images-desktop">
+    <!-- <img src="./images/Group 118.svg" alt="about-images-desktop" class="mb-5 d-sm-block d-md-none w-75"> -->
   </div>
 
-  <div class="d-md-block d-sm-none w-100">
-    <section class="mt-5 d-flex flex-column" style="background-color: #F9F9FA;">
-      <img src="./images/image-geometry_6.png" alt="image-geometry_6" width="200">
-      <div class="d-flex flex-column align-items-center container w-50">
-        <h1 style="margin-top: -150px;">Get Started</h1>
-        <div>
-          <h3 style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor
-            incididunt ut labore
-            et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea
-            commodo consequat.</h3>
-        </div>
+  <div class="container-fluid p-0 m-0">
+    <section class="row p-0 m-0" style="background-color: #F9F9FA;">
+      <img src="./images/image-geometry_6.png" class="col-3 img-full" alt="image-geometry_6">
+      <div class="col-6 d-flex flex-column align-items-center" style="padding-top: 15%">
+        <h1 class="playfair" style="font-size: 60px;">Get Started</h1>
+        <h5 class="mt-3" style="font-size: 14px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+          incididunt ut labore
+          et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea
+          commodo consequat.
+        </h5>
 
         <!-- form start -->
         <form id="getting-started-form" action="https://formspree.io/f/xqkoqdpn" method="post"
@@ -321,27 +245,27 @@
           <div class="d-flex flex-column mt-4">
             <div class="d-flex flex-md-row flex-sm-column gap-3 mb-3">
               <div class="d-flex flex-column w-50">
-                <label for="name" class="form-label">Your Name</label>
+                <label for="name" class="form-label mb-0" style="font-size: 12px;">Your Name</label>
                 <input class="form-control" placeholder="Anastasiia" type="text" maxlength="30" required name="name"
                   id="name">
               </div>
               <div class="d-flex flex-column w-50">
-                <label for="email" class="form-label">Your Email</label>
+                <label for="email" class="form-label mb-0" style="font-size: 12px;">Your Email</label>
                 <input class="form-control" placeholder="Enter your Email" type="email" title="Not Valid"
                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required name="email" id="email">
               </div>
             </div>
             <div class="d-flex flex-column">
-              <label for="message" class="form-label">Message</label>
+              <label for="message" class="form-label mb-0" style="font-size: 12px;">Message</label>
               <textarea class="form-control" placeholder="Enter your message here..." maxlength="500" required
-                name="messages" id="message" cols="100" rows="10"></textarea>
+                name="messages" id="message" cols="50" rows="10"></textarea>
             </div>
           </div>
-          <button type="submit" class="btn btn-dark w-25 mt-3 p-3" style="margin-bottom: -100px;">Start
+          <button type="submit" class="btn-collab px-5 py-3 mt-4" style="margin-bottom: 25%;">Start
             collaboration</button>
         </form>
       </div>
-      <img src="./images/image-geometry_7.png" alt="image-geometry_7" class="align-self-end" width="200">
+      <img src="./images/image-geometry_7.png" alt="image-geometry_7" class="col-3 align-self-end img-full">
       <!-- form end -->
     </section>
   </div>
@@ -379,7 +303,7 @@
             <div class="d-flex flex-column">
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" placeholder="Enter your message here..." maxlength="500" required
-                name="messages" id="message" cols="100" rows="10"></textarea>
+                name="messages" id="message" cols="100" rows="50"></textarea>
             </div>
           </div>
           <button type="submit" class="btn btn-dark mt-3 p-3 w-100 mb-4">Start
