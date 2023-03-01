@@ -162,8 +162,7 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@fickryiman](https://github.com/fickryiman)
-- LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman)
+- GitHub: [@fickryiman](https://github.com/fickryiman), - LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman)
 
 - GitHub: [@fickryiman](https://github.com/joeveloper)
 
